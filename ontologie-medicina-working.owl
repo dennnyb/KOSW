@@ -199,10 +199,10 @@
         <Class IRI="#Selma"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Zimnice"/>
+        <Class IRI="#Zvraceni"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Zvraceni"/>
+        <Class IRI="#Zimnice"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#jePrevenciPro"/>
@@ -1144,6 +1144,13 @@
         <Class IRI="#HoreckaChikungunya"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#OnemocneniSireneHmyzem"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoreckaChikungunya"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
             <Class IRI="#Opice"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -1219,6 +1226,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#maZdrojNakazy"/>
             <Class IRI="#Komar"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoreckaDengue"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#OnemocneniSireneHmyzem"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1569,6 +1583,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#maZdrojNakazy"/>
             <Class IRI="#Komar"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malarie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#OnemocneniSireneHmyzem"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2066,6 +2087,13 @@
         <Class IRI="#VisceralniLeishmanioza"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#OnemocneniSireneHmyzem"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VisceralniLeishmanioza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
             <Class IRI="#Selma"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2310,6 +2338,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#maZdrojNakazy"/>
             <Class IRI="#Komar"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZikaVirus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#OnemocneniSireneHmyzem"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2803,8 +2838,43 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Argentina</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V tomto jihoamerickem state nalezneme nemoci jako je Tyfus, horecka Dengue a vzteklina.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Australie</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ackoliv ma australie bohatou faunu, vyskytuje se zde pouze vzteklina a horecka Dengue.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Bacilonosic</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Bacilonosič je člověk, který nemá žádné přiznaky dané nemoci ale zdroj nákazy má ve svém těle.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BakterialniOnemocneni</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Onemocneni, ktere zpusobuji bakterie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BezpecnyStat</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Stat jenz ma vysokou bezpecnost.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cestovatel</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Radime zde lidi navstevujici zemi, dovolena i prace.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chile</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Obdobne jako v Argentine zde mapujeme Tyfus a Vzteklinu. Chybi horecka Dengue.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dezinfikovani</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Opatreni proti dalsimu sireni</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2813,8 +2883,118 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Doktor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Lekari jak lokalni, tak doktori na misich.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Egypt</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Egypt je africky stat s vyskytem Tyfu, Dengue, Tetanu a Vztekliny.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HoreckaChikungunya</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Horecka Chikunguya je virove onemocneni prenasene komarem, pripadne opicemi se stredni inkubacni dobou. Smrtnost je nizka, projevuje se zimnici, vyrazkou, otokem kloubu, horeckou, bolesti za ocima, svalovymi a kloubnimi bolestmi. Jako u ostatnich onemocneni prenasenych hmyzem je vhodne pouzivat moskytiery a repelent.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HoreckaDengue</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Onemocneni se stredni inkubacnidobou, zname tez jako horecka, ktera lame kosti. Prenasecem je komar, proto k prevenci pomahaji repelenty a moskytiery. Zpusobuje bolesti, horecky, vyrazky, zvetsujici se uzliny. Smrtnost je nizka, pri neleceni stredni.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Informovanost</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Informovanost populace a navstevniku zeme/regionu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Insekticid</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Pripravek urceny k hubeni hmyzu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Jordansko</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V asijskem state Jordansko se vyskytuje Tyfus, Dengue, tetanus, vzteklina a Visceralni Leishmanioza</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Kanada</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V Kanade je vyskyt vztekliny.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Kena</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Stat v Africkem kontinentu s vyskytem brisniho Tyfu, cholery, horecky Chikungunya a Dengue, malarii, tetanu, vztekliny a viru Zika.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Kliste</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Roztoc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#KlistovaEncefalitida</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Nemoc s inkubacni 7 - 14 dni, prenaseno klistaty. Ockovani je dostupne. Zpusobuje bolest hlavy, kloubu, horecku, nechutenstni a unavu. Nemoc vetsinou neni zavazna a smrtnost je nizka. Pri absenci lecby muze byt stredni.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#KontaminovanaPotrava</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Kontaminace potravy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#KontaminovanaPuda</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Kontaminace pudy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#KontaminovanaVoda</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Kontaminace tekutin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#KontaminovanyVzduch</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Kontaminace ovzdusi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#KratkaInkubacniDoba</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Inkubační doba do 1 dne včetně.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Malarie</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Onemocneni s dlouhou inkubacni dobou. Existuji Antimalarika. Da se mu predchazet pouzivanim sitim proti hmyzu, repelentu. Zpusobuje bolesti kloubu, horecky, krece, poceni, zimnici. Je stredne nebezpecne pri lecbe, a velmi nebezpecne nelecene. Prenaseno komary.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mexiko</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V Mexiku se vyskytuje Tyfus, Cholera, horecka Dengue, vzteklina a typicke jizni nemoci jako je Malarie a virus Zika.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Moskytier</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Site proti hmyzu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Moucha</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Povetsionou moucha tse-tse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NebezpecnyStat</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Stat jenz ma nizkou bezpecnost</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NemocnyClovek</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Clovek infikovany onemocnenim, s projevujicimi se priznaky. Muze byt zaroven bacilonosicem.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Nepal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V horskem state Nepal, na jizni hranici Ciny je rozsiren Tyfus, Chikungunya, Dengue, Malarie, Tetanus a vzteklina.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2825,6 +3005,66 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#NizkaSmrnost</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Smrtnost do 1% včetně.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Obyvatel</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Obyvatele dane zeme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ockovani</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Vakcina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OnemocneniSireneHmyzem</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Onemocneni jenz jsou sirena hmyzem.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Opice</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Primati</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ParazitarniOnemocneni</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Puvodcem onemocneni jsou parazite.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pavoukovec</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Bezobratli zivocichove</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PitiBaleneVody</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Dostupnost balene, nezavadne vody</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Repelent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Pripravek odpuzujici hmyz.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RuzovaVyrazka</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Druh vyrazky</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Slovensko</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V sousednim slovensku je mapovan vyskyt vztekliny a klistove Encefalitidy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SmrtnostNemoci</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Smrtnost nemoci v procentech</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SpojeneStatyAmericke</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Na jihu USA najdeme horecku Dengue, a plosne pak muzeme diagnostikovat u zvirat vzteklinu.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2843,6 +3083,26 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Svycarsko</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Stejne jako na Slovensku je zde vyskyt vztekliny a Encefalitidy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TepelneZpracovaneStrava</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Dostupnost tepelne opracovane stravy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ViroveOnemocneni</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Puvodcem onemocneni je vir</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VisceralniLeishmanioza</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Nemoc znama tez jako Cerna horecka je parazitarnim onemocneni. Ma dlouhou inkubacni dobu a da se lecit antibiotiky. Vhodne je predchazet nakaze pomoci moskytier, uzivanim repelentu. Projevuje se bledosti, horeckou, otokem, pocenim, unavou, zvetsenim vnitrchnich organu. Nelecena ma vysokou smrtnost. Zdrojem nakazy muze byt clovek, hlodavec, hmyz a selmy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#VysokaBezpecnost</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
     </AnnotationAssertion>
@@ -2850,6 +3110,51 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#VysokaSmrtnost</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Smrnost nad 10%.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vzteklina</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Vzteklina je virove onemocneni, s dlouhou inkubacni dobou a dostupny ockovanim. Zpusobuje bolesti, brneni a paleni. Po propuknuti je smrtnost temer 100 procentni. Nemoc se prenasi slinami, vetsinou pokousanim.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Zaskrt</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Je to bakterialni onemocneni se stredni inkubacnidobou. Muze se lecit Antibiotiky a Antitoxiny. Zpusobuje horecku a anginu. Nizka smrtnost pri dostupnosti lecby, stredni kdyz je neleceny. Je sance nakazit se od cloveka, z okolniho vzduchu, nebo od prenasece.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ZavazneOnemocneni</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Onemocneni jenz maji stredni a vysoukou smrtnost a zaroven na ne neni ockovani</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ZdrojNakazy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Mozne zdroje nakazy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ZikaVirus</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Onemocneni prenaseno komarem. Se se stredne dlouho inkubacni dobou, 3 - 12 dnu. Jako prevence se komari hubi, pouzivaji se site a repelenty. Zpusobuje bolesti hlavy, kloubniho aparatu, vyrazky a horecku. Lecena ma stredni smrtnost, nelecena taktez. Obvykle nevyzaduje hospitalizaci.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Zivocich</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Zivy tvor schopny prenaset onemocneni.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Zloutenka</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Spravne zvana hepatitida. Jedna se o zanet jater, a rika se ji nemco spinavych rukou. Zradnou vlastnosti je inkubacni doba 15 - 50 dni. Proti zloutence existuje ockovani, a dezinfekce. Zpusobuje bolesti bricha, hlavy, oslabeni organismu, horecku, nevolnost, a typicke zlute zabarveni kuze a mekych tkani. Pri leceni neni zloutenka nijak zvlast nebezpecna. Prenasi se potravinami, kontaktem cloveka s clovekem.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ZloutenkaTypuA</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Viz. Zloutenka. Prenasi se potravinavi, spatne tepelne opracovanymi, vodou, ledem, zeleniniou, syrem i masem. Dokonce i kontaminovanymi predmety. Taktez z cloveka na cloveka.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ZloutenkaTypuB</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">je nebezpecnejsi nez zloutenka typu A. Smrtnost je nizka, ale stale vyssi nez u A. ostatni priznaky zustavaji obdobne. Velke riziko pri kontaktu.</Literal>
     </AnnotationAssertion>
 </Ontology>
 
