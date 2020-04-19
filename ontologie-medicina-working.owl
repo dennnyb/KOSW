@@ -82,6 +82,9 @@
         <Class IRI="#Stravovani"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#maPovinneOckovani"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Poceni"/>
     </Declaration>
     <Declaration>
@@ -101,6 +104,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Horecka"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#maVyskytOnemocneni"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Moucha"/>
@@ -131,9 +137,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Tetanus"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ZlutaZimnice"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DefinovanaTrida"/>
@@ -196,10 +199,10 @@
         <Class IRI="#Selma"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Zvraceni"/>
+        <Class IRI="#Zimnice"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Zimnice"/>
+        <Class IRI="#Zvraceni"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#jePrevenciPro"/>
@@ -251,9 +254,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Bledost"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#maProvinneOckovani"/>
     </Declaration>
     <Declaration>
         <Class IRI="#VisceralniLeishmanioza"/>
@@ -316,9 +316,6 @@
         <Class IRI="#Unava"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Spalnicky"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#BezpecnostStatu"/>
     </Declaration>
     <Declaration>
@@ -364,13 +361,13 @@
         <DataProperty IRI="#maUmrtnost"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ZluteZbarvenaSliznice"/>
+        <ObjectProperty IRI="#jeZavaznostiPro"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ZvetseniUzlin"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#jeZavaznostiPro"/>
+        <Class IRI="#ZluteZbarvenaSliznice"/>
     </Declaration>
     <Declaration>
         <Class IRI="#KontaminovanaVoda"/>
@@ -391,13 +388,7 @@
         <Class IRI="#Doktor"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#jeProvinneOckovaniPro"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Brneni"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Priusnice"/>
     </Declaration>
     <Declaration>
         <Class IRI="#BolestKloubu"/>
@@ -424,13 +415,16 @@
         <ObjectProperty IRI="#maZavaznost"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#KlistovaEncefalitida"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Onemocneni"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Kontaminace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KlistovaEncefalitida"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#jePovinneOckovaniPro"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#jeOnemocnenimVe"/>
@@ -455,6 +449,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#ZloutenkaTypuB"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#seVyskytujeV"/>
     </Declaration>
     <Declaration>
         <Class IRI="#BolestHlavy"/>
@@ -488,9 +485,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#AsijskyStat"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DetskaObrna"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#maPriznak"/>
@@ -620,12 +614,47 @@
         <Class IRI="#JihoAmerickyStat"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Argentina"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#BrisniTyfus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Argentina"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#HoreckaDengue"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Argentina"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Vzteklina"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#AsijskyStat"/>
         <Class IRI="#Stat"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Australie"/>
         <Class IRI="#AustralskyStat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Australie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#HoreckaDengue"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Australie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Vzteklina"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AustralskyStat"/>
@@ -837,6 +866,20 @@
         <Class IRI="#JihoAmerickyStat"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Chile"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#BrisniTyfus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chile"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Vzteklina"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Cholera"/>
         <Class IRI="#BakterialniOnemocneni"/>
     </SubClassOf>
@@ -950,10 +993,6 @@
         <Class IRI="#Primat"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#DetskaObrna"/>
-        <Class IRI="#ViroveOnemocneni"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Dezinfikovani"/>
         <Class IRI="#Prevence"/>
     </SubClassOf>
@@ -968,6 +1007,34 @@
     <SubClassOf>
         <Class IRI="#Egypt"/>
         <Class IRI="#AfrickyStat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Egypt"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#BrisniTyfus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Egypt"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#HoreckaDengue"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Egypt"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Tetanus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Egypt"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Vzteklina"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#EvropskyStat"/>
@@ -1175,8 +1242,50 @@
         <Class IRI="#AsijskyStat"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Jordansko"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#BrisniTyfus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jordansko"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#HoreckaDengue"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jordansko"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Tetanus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jordansko"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#VisceralniLeishmanioza"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jordansko"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Vzteklina"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Kanada"/>
         <Class IRI="#SeveroAmerickyStat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kanada"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Vzteklina"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Kasel"/>
@@ -1185,6 +1294,62 @@
     <SubClassOf>
         <Class IRI="#Kena"/>
         <Class IRI="#AfrickyStat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kena"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#BrisniTyfus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kena"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Cholera"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kena"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#HoreckaChikungunya"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kena"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#HoreckaDengue"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kena"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Malarie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kena"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Tetanus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kena"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Vzteklina"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kena"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#ZikaVirus"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Kliste"/>
@@ -1411,6 +1576,48 @@
         <Class IRI="#StredoAmerickyStat"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Mexiko"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#BrisniTyfus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mexiko"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Cholera"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mexiko"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#HoreckaDengue"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mexiko"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Malarie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mexiko"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Vzteklina"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mexiko"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#ZikaVirus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Moskytier"/>
         <Class IRI="#Prevence"/>
     </SubClassOf>
@@ -1437,6 +1644,48 @@
     <SubClassOf>
         <Class IRI="#Nepal"/>
         <Class IRI="#AsijskyStat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nepal"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#BrisniTyfus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nepal"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#HoreckaChikungunya"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nepal"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#HoreckaDengue"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nepal"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Malarie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nepal"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Tetanus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nepal"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Vzteklina"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Nevolnost"/>
@@ -1519,10 +1768,6 @@
         <Class IRI="#Savec"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Priusnice"/>
-        <Class IRI="#ViroveOnemocneni"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#PriznakNemoci"/>
         <Class IRI="#PridavnaTrida"/>
     </SubClassOf>
@@ -1559,16 +1804,40 @@
         <Class IRI="#EvropskyStat"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Slovensko"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#KlistovaEncefalitida"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Slovensko"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Vzteklina"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#SmrtnostNemoci"/>
         <Class IRI="#PridavnaTrida"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Spalnicky"/>
-        <Class IRI="#ViroveOnemocneni"/>
+        <Class IRI="#SpojeneStatyAmericke"/>
+        <Class IRI="#SeveroAmerickyStat"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SpojeneStatyAmericke"/>
-        <Class IRI="#SeveroAmerickyStat"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#HoreckaDengue"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpojeneStatyAmericke"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Vzteklina"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Stat"/>
@@ -1597,6 +1866,20 @@
     <SubClassOf>
         <Class IRI="#Svycarsko"/>
         <Class IRI="#EvropskyStat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Svycarsko"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#KlistovaEncefalitida"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Svycarsko"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Vzteklina"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TepelneZpracovaneStrava"/>
@@ -2204,10 +2487,6 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ZlutaZimnice"/>
-        <Class IRI="#ViroveOnemocneni"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#ZluteZbarvenaKuze"/>
         <Class IRI="#PriznakNemoci"/>
     </SubClassOf>
@@ -2280,16 +2559,16 @@
         <ObjectProperty IRI="#maOnemocneni"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
+        <ObjectProperty IRI="#jePovinneOckovaniPro"/>
+        <ObjectProperty IRI="#maPovinneOckovani"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
         <ObjectProperty IRI="#jePrevenciPro"/>
         <ObjectProperty IRI="#maPrevenci"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#jePriznakemPro"/>
         <ObjectProperty IRI="#maPriznak"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#jeProvinneOckovaniPro"/>
-        <ObjectProperty IRI="#maProvinneOckovani"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#jeSmrtnostiPriNeleceniPro"/>
@@ -2306,6 +2585,10 @@
     <InverseObjectProperties>
         <ObjectProperty IRI="#jeZdrojemNakazyPro"/>
         <ObjectProperty IRI="#maZdrojNakazy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#maVyskytOnemocneni"/>
+        <ObjectProperty IRI="#seVyskytujeV"/>
     </InverseObjectProperties>
     <FunctionalObjectProperty>
         <ObjectProperty IRI="#jeBezpecnostPro"/>
@@ -2330,16 +2613,16 @@
         <Class IRI="#Onemocneni"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#jePovinneOckovaniPro"/>
+        <Class IRI="#Onemocneni"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#jePrevenciPro"/>
         <Class IRI="#Prevence"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#jePriznakemPro"/>
         <Class IRI="#PriznakNemoci"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#jeProvinneOckovaniPro"/>
-        <Class IRI="#Onemocneni"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#jeSmrtnostiPriNeleceniPro"/>
@@ -2370,16 +2653,16 @@
         <Class IRI="#Stat"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#maPovinneOckovani"/>
+        <Class IRI="#Stat"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#maPrevenci"/>
         <Class IRI="#Onemocneni"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#maPriznak"/>
         <Class IRI="#Onemocneni"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#maProvinneOckovani"/>
-        <Class IRI="#Stat"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#maSmrtnost"/>
@@ -2390,11 +2673,19 @@
         <Class IRI="#Onemocneni"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#maVyskytOnemocneni"/>
+        <Class IRI="#Stat"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#maZavaznost"/>
         <Class IRI="#Onemocneni"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#maZdrojNakazy"/>
+        <Class IRI="#Onemocneni"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#seVyskytujeV"/>
         <Class IRI="#Onemocneni"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -2418,16 +2709,16 @@
         <Class IRI="#Stat"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#jePovinneOckovaniPro"/>
+        <Class IRI="#Stat"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#jePrevenciPro"/>
         <Class IRI="#Onemocneni"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#jePriznakemPro"/>
         <Class IRI="#Onemocneni"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#jeProvinneOckovaniPro"/>
-        <Class IRI="#Stat"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#jeSmrtnostiPriNeleceniPro"/>
@@ -2462,16 +2753,16 @@
         <Class IRI="#Onemocneni"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#maPovinneOckovani"/>
+        <Class IRI="#Onemocneni"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#maPrevenci"/>
         <Class IRI="#Prevence"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#maPriznak"/>
         <Class IRI="#PriznakNemoci"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#maProvinneOckovani"/>
-        <Class IRI="#Onemocneni"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#maSmrtnost"/>
@@ -2482,8 +2773,16 @@
         <Class IRI="#SmrtnostNemoci"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#maVyskytOnemocneni"/>
+        <Class IRI="#Onemocneni"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#maZdrojNakazy"/>
         <Class IRI="#ZdrojNakazy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#seVyskytujeV"/>
+        <Class IRI="#Stat"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
