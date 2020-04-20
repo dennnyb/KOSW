@@ -1,0 +1,3268 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.lide.uhk.cz/kanokvi1/osw/medicina"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.lide.uhk.cz/kanokvi1/osw/medicina">
+    <Prefix name="" IRI="http://www.lide.uhk.cz/kanokvi1/osw/medicina"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ontologie nemocí ve světě pro cestovatele.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1.0</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Toto je ontologie pojednávající o rozdělení nemocí ve světe a nebezpečí v jednotlivých zemích.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Nepal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ockovani"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KontaminovanyVzduch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vzteklina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ZvetseniSleziny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AustralskyStat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Argentina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ZvetseniOrganu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Opice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Antibiotikum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hlodavec"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cholera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Savec"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ZtrataKoordinace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PriznakNemoci"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SeveroAmerickyStat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Antitoxin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stravovani"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#maPovinneOckovani"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Poceni"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ZluteZbarveneBelmoOka"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BolestUst"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BolestSvalu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BrisniTyfus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StredniSmrtnost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Horecka"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#maVyskytOnemocneni"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moucha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TestNemocSOtokemABrnenim"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Primat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RuzovaVyrazka"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Slovensko"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SmrtnostNemoci"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#maZdrojNakazy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rehydratace"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#jeInkubacniDobouPro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HoreckaDengue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tetanus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DefinovanaTrida"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#jePriznakemPro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nechutenstvi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paleni"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NizkaSmrnost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DlouhaInkubacniDoba"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Krece"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VysokaSmrtnost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Otok"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clovek"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JihoAmerickyStat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prevence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Egypt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ObchabnutiSvalu"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#maBezpecnost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TestNemociSDlouhoInkubacniDobou"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrimitivniTrida"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pavoukovec"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zacpa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moskytier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TestInkubacniDoby"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Selma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zvraceni"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zimnice"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#jePrevenciPro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BolestBricha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BakterialniOnemocneni"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#maOnemocneni"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prujem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#jeBezpecnostPro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Obyvatel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lecba"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hmyz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BolestZad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kasel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PridavnaTrida"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ZikaVirus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InkubacniDoba"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ZloutenkaTypuA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bledost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VisceralniLeishmanioza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OnemocneniSireneHmyzem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zaskrt"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#maSmrtnost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ZavazneOnemocneni"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nevolnost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NebezpecnyStat"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#maSmrtnostPriNeleceni"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BezpecnyStat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TestBezpecneNebezpecnyStat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParazitarniOnemocneni"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HoreckaChikungunya"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#maInkubacniDobu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ZvetseniJater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kena"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpojeneStatyAmericke"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zavrat"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#maPrevenci"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ASAQ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CelkovaSlabost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unava"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BezpecnostStatu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kanada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PitiBaleneVody"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Komar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TepelneZpracovaneStrava"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Australie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ZdrojNakazy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Malarie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Informovanost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StredniBezpecnost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bacilonosic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zloutenka"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kliste"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NizkaBezpecnost"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#maUmrtnost"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#jeZavaznostiPro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ZvetseniUzlin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ZluteZbarvenaSliznice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KontaminovanaVoda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TestovaciTrida"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#jeSmrtnostiPro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Osoba"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MytiRukou"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Doktor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brneni"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BolestKloubu"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#jeLecbaPro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StredniInkubacniDoba"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vyrazka"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#jeSmrtnostiPriNeleceniPro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cestovatel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mexiko"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#maZavaznost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Onemocneni"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kontaminace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KlistovaEncefalitida"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#jePovinneOckovaniPro"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#jeOnemocnenimVe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtokKloubu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VysokaBezpecnost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ZluteZbarvenaKuze"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dezinfikovani"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bolest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KontaminovanaPuda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ZloutenkaTypuB"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#seVyskytujeV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BolestHlavy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BolestZaOcima"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#jeZdrojemNakazyPro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KratkaInkubacniDoba"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StredoAmerickyStat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Repelent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lek"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ViroveOnemocneni"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jordansko"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Insekticid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AsijskyStat"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#maPriznak"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Svycarsko"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NemocnyClovek"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EvropskyStat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AfrickyStat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zivocich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Angina"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#maLecbu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ochabnuti"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TestMalarie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KontaminovanaPotrava"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#BezpecnostStatu"/>
+        <ObjectUnionOf>
+            <Class IRI="#NizkaBezpecnost"/>
+            <Class IRI="#StredniBezpecnost"/>
+            <Class IRI="#VysokaBezpecnost"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#BezpecnyStat"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Stat"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#maBezpecnost"/>
+                <Class IRI="#VysokaBezpecnost"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#InkubacniDoba"/>
+        <ObjectUnionOf>
+            <Class IRI="#DlouhaInkubacniDoba"/>
+            <Class IRI="#KratkaInkubacniDoba"/>
+            <Class IRI="#StredniInkubacniDoba"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#NebezpecnyStat"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Stat"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#maBezpecnost"/>
+                <Class IRI="#NizkaBezpecnost"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OnemocneniSireneHmyzem"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Onemocneni"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#maZdrojNakazy"/>
+                <Class IRI="#Hmyz"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SmrtnostNemoci"/>
+        <ObjectUnionOf>
+            <Class IRI="#NizkaSmrnost"/>
+            <Class IRI="#StredniSmrtnost"/>
+            <Class IRI="#VysokaSmrtnost"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ZavazneOnemocneni"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Onemocneni"/>
+            <ObjectUnionOf>
+                <Class IRI="#VysokaSmrtnost"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#maSmrtnost"/>
+                    <Class IRI="#StredniSmrtnost"/>
+                </ObjectSomeValuesFrom>
+            </ObjectUnionOf>
+            <ObjectComplementOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#maPrevenci"/>
+                    <Class IRI="#Ockovani"/>
+                </ObjectSomeValuesFrom>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#ASAQ"/>
+        <Class IRI="#Lek"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AfrickyStat"/>
+        <Class IRI="#Stat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Angina"/>
+        <Class IRI="#PriznakNemoci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Antibiotikum"/>
+        <Class IRI="#Lek"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Antitoxin"/>
+        <Class IRI="#Lecba"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Argentina"/>
+        <Class IRI="#JihoAmerickyStat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Argentina"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#BrisniTyfus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Argentina"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#HoreckaDengue"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Argentina"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Vzteklina"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AsijskyStat"/>
+        <Class IRI="#Stat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Australie"/>
+        <Class IRI="#AustralskyStat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Australie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#HoreckaDengue"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Australie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Vzteklina"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AustralskyStat"/>
+        <Class IRI="#Stat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bacilonosic"/>
+        <Class IRI="#Clovek"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BakterialniOnemocneni"/>
+        <Class IRI="#Onemocneni"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BezpecnostStatu"/>
+        <Class IRI="#PridavnaTrida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BezpecnyStat"/>
+        <Class IRI="#DefinovanaTrida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bledost"/>
+        <Class IRI="#PriznakNemoci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bolest"/>
+        <Class IRI="#PriznakNemoci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BolestBricha"/>
+        <Class IRI="#Bolest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BolestHlavy"/>
+        <Class IRI="#Bolest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BolestKloubu"/>
+        <Class IRI="#Bolest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BolestSvalu"/>
+        <Class IRI="#Bolest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BolestUst"/>
+        <Class IRI="#Bolest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BolestZaOcima"/>
+        <Class IRI="#Bolest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BolestZad"/>
+        <Class IRI="#Bolest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrisniTyfus"/>
+        <Class IRI="#BakterialniOnemocneni"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrisniTyfus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maInkubacniDobu"/>
+            <Class IRI="#DlouhaInkubacniDoba"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrisniTyfus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maLecbu"/>
+            <Class IRI="#Antibiotikum"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrisniTyfus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPrevenci"/>
+            <Class IRI="#Dezinfikovani"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrisniTyfus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPrevenci"/>
+            <Class IRI="#Ockovani"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrisniTyfus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPrevenci"/>
+            <Class IRI="#PitiBaleneVody"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrisniTyfus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPrevenci"/>
+            <Class IRI="#TepelneZpracovaneStrava"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrisniTyfus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#BolestBricha"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrisniTyfus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#BolestHlavy"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrisniTyfus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Horecka"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrisniTyfus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Nechutenstvi"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrisniTyfus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Prujem"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrisniTyfus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#RuzovaVyrazka"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrisniTyfus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Unava"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrisniTyfus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Zacpa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrisniTyfus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Zimnice"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrisniTyfus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maSmrtnost"/>
+            <Class IRI="#NizkaSmrnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrisniTyfus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maSmrtnostPriNeleceni"/>
+            <Class IRI="#StredniSmrtnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrisniTyfus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#Bacilonosic"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrisniTyfus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#NemocnyClovek"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brneni"/>
+        <Class IRI="#PriznakNemoci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CelkovaSlabost"/>
+        <Class IRI="#PriznakNemoci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cestovatel"/>
+        <Class IRI="#Osoba"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chile"/>
+        <Class IRI="#JihoAmerickyStat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chile"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#BrisniTyfus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chile"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Vzteklina"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cholera"/>
+        <Class IRI="#BakterialniOnemocneni"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cholera"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maInkubacniDobu"/>
+            <Class IRI="#KratkaInkubacniDoba"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cholera"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maLecbu"/>
+            <Class IRI="#Antibiotikum"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cholera"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maLecbu"/>
+            <Class IRI="#Rehydratace"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cholera"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPrevenci"/>
+            <Class IRI="#Dezinfikovani"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cholera"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPrevenci"/>
+            <Class IRI="#Ockovani"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cholera"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPrevenci"/>
+            <Class IRI="#PitiBaleneVody"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cholera"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Bolest"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cholera"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Horecka"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cholera"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Prujem"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cholera"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maSmrtnost"/>
+            <Class IRI="#NizkaSmrnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cholera"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maSmrtnostPriNeleceni"/>
+            <Class IRI="#VysokaSmrtnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cholera"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#Bacilonosic"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cholera"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#KontaminovanaPotrava"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cholera"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#KontaminovanaVoda"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cholera"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#NemocnyClovek"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clovek"/>
+        <Class IRI="#Primat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dezinfikovani"/>
+        <Class IRI="#Prevence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DlouhaInkubacniDoba"/>
+        <Class IRI="#InkubacniDoba"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Doktor"/>
+        <Class IRI="#Osoba"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Egypt"/>
+        <Class IRI="#AfrickyStat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Egypt"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#BrisniTyfus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Egypt"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#HoreckaDengue"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Egypt"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Tetanus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Egypt"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Vzteklina"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EvropskyStat"/>
+        <Class IRI="#Stat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hlodavec"/>
+        <Class IRI="#Savec"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hmyz"/>
+        <Class IRI="#Zivocich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Horecka"/>
+        <Class IRI="#PriznakNemoci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoreckaChikungunya"/>
+        <Class IRI="#ViroveOnemocneni"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoreckaChikungunya"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maInkubacniDobu"/>
+            <Class IRI="#StredniInkubacniDoba"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoreckaChikungunya"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPrevenci"/>
+            <Class IRI="#Moskytier"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoreckaChikungunya"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPrevenci"/>
+            <Class IRI="#Repelent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoreckaChikungunya"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#BolestKloubu"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoreckaChikungunya"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#BolestSvalu"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoreckaChikungunya"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#BolestZaOcima"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoreckaChikungunya"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Horecka"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoreckaChikungunya"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#OtokKloubu"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoreckaChikungunya"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Vyrazka"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoreckaChikungunya"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Zimnice"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoreckaChikungunya"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maSmrtnost"/>
+            <Class IRI="#NizkaSmrnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoreckaChikungunya"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#Komar"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoreckaChikungunya"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#OnemocneniSireneHmyzem"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoreckaChikungunya"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#Opice"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoreckaDengue"/>
+        <Class IRI="#ViroveOnemocneni"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoreckaDengue"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maInkubacniDobu"/>
+            <Class IRI="#StredniInkubacniDoba"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoreckaDengue"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPrevenci"/>
+            <Class IRI="#Moskytier"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoreckaDengue"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPrevenci"/>
+            <Class IRI="#Repelent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoreckaDengue"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Bolest"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoreckaDengue"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Horecka"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoreckaDengue"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Vyrazka"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoreckaDengue"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#ZvetseniUzlin"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoreckaDengue"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maSmrtnost"/>
+            <Class IRI="#NizkaSmrnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoreckaDengue"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maSmrtnostPriNeleceni"/>
+            <Class IRI="#StredniSmrtnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoreckaDengue"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#Komar"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoreckaDengue"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#OnemocneniSireneHmyzem"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Informovanost"/>
+        <Class IRI="#Prevence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InkubacniDoba"/>
+        <Class IRI="#PridavnaTrida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insekticid"/>
+        <Class IRI="#Prevence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JihoAmerickyStat"/>
+        <Class IRI="#Stat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jordansko"/>
+        <Class IRI="#AsijskyStat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jordansko"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#BrisniTyfus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jordansko"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#HoreckaDengue"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jordansko"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Tetanus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jordansko"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#VisceralniLeishmanioza"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jordansko"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Vzteklina"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kanada"/>
+        <Class IRI="#SeveroAmerickyStat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kanada"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Vzteklina"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kasel"/>
+        <Class IRI="#PriznakNemoci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kena"/>
+        <Class IRI="#AfrickyStat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kena"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#BrisniTyfus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kena"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Cholera"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kena"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#HoreckaChikungunya"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kena"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#HoreckaDengue"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kena"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Malarie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kena"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Tetanus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kena"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Vzteklina"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kena"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#ZikaVirus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kliste"/>
+        <Class IRI="#Pavoukovec"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KlistovaEncefalitida"/>
+        <Class IRI="#ViroveOnemocneni"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KlistovaEncefalitida"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maInkubacniDobu"/>
+            <Class IRI="#DlouhaInkubacniDoba"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KlistovaEncefalitida"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPrevenci"/>
+            <Class IRI="#Ockovani"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KlistovaEncefalitida"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPrevenci"/>
+            <Class IRI="#Repelent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KlistovaEncefalitida"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#BolestHlavy"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KlistovaEncefalitida"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#BolestKloubu"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KlistovaEncefalitida"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#BolestSvalu"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KlistovaEncefalitida"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Horecka"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KlistovaEncefalitida"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Nechutenstvi"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KlistovaEncefalitida"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Unava"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KlistovaEncefalitida"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maSmrtnost"/>
+            <Class IRI="#NizkaSmrnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KlistovaEncefalitida"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maSmrtnostPriNeleceni"/>
+            <Class IRI="#StredniSmrtnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KlistovaEncefalitida"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#Kliste"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Komar"/>
+        <Class IRI="#Hmyz"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kontaminace"/>
+        <Class IRI="#ZdrojNakazy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KontaminovanaPotrava"/>
+        <Class IRI="#Kontaminace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KontaminovanaPuda"/>
+        <Class IRI="#Kontaminace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KontaminovanaVoda"/>
+        <Class IRI="#Kontaminace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KontaminovanyVzduch"/>
+        <Class IRI="#Kontaminace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KratkaInkubacniDoba"/>
+        <Class IRI="#InkubacniDoba"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Krece"/>
+        <Class IRI="#PriznakNemoci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lecba"/>
+        <Class IRI="#PridavnaTrida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lek"/>
+        <Class IRI="#Lecba"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malarie"/>
+        <Class IRI="#ParazitarniOnemocneni"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malarie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maInkubacniDobu"/>
+            <Class IRI="#DlouhaInkubacniDoba"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malarie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maLecbu"/>
+            <Class IRI="#ASAQ"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malarie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPrevenci"/>
+            <Class IRI="#Moskytier"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malarie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPrevenci"/>
+            <Class IRI="#Repelent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malarie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#BolestKloubu"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malarie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Horecka"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malarie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Krece"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malarie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Poceni"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malarie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Zimnice"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malarie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maSmrtnost"/>
+            <Class IRI="#StredniSmrtnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malarie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maSmrtnostPriNeleceni"/>
+            <Class IRI="#VysokaSmrtnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malarie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#Komar"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malarie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#OnemocneniSireneHmyzem"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mexiko"/>
+        <Class IRI="#StredoAmerickyStat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mexiko"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#BrisniTyfus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mexiko"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Cholera"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mexiko"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#HoreckaDengue"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mexiko"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Malarie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mexiko"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Vzteklina"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mexiko"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#ZikaVirus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moskytier"/>
+        <Class IRI="#Prevence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moucha"/>
+        <Class IRI="#Hmyz"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MytiRukou"/>
+        <Class IRI="#Prevence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NebezpecnyStat"/>
+        <Class IRI="#DefinovanaTrida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nechutenstvi"/>
+        <Class IRI="#PriznakNemoci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NemocnyClovek"/>
+        <Class IRI="#Clovek"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nepal"/>
+        <Class IRI="#AsijskyStat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nepal"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#BrisniTyfus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nepal"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#HoreckaChikungunya"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nepal"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#HoreckaDengue"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nepal"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Malarie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nepal"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Tetanus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nepal"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Vzteklina"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nevolnost"/>
+        <Class IRI="#PriznakNemoci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NizkaBezpecnost"/>
+        <Class IRI="#BezpecnostStatu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NizkaSmrnost"/>
+        <Class IRI="#SmrtnostNemoci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObchabnutiSvalu"/>
+        <Class IRI="#Ochabnuti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Obyvatel"/>
+        <Class IRI="#Osoba"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ochabnuti"/>
+        <Class IRI="#PriznakNemoci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ockovani"/>
+        <Class IRI="#Prevence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Onemocneni"/>
+        <Class IRI="#PrimitivniTrida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OnemocneniSireneHmyzem"/>
+        <Class IRI="#DefinovanaTrida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Opice"/>
+        <Class IRI="#Primat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Osoba"/>
+        <Class IRI="#PrimitivniTrida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Otok"/>
+        <Class IRI="#PriznakNemoci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtokKloubu"/>
+        <Class IRI="#Otok"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paleni"/>
+        <Class IRI="#PriznakNemoci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParazitarniOnemocneni"/>
+        <Class IRI="#Onemocneni"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pavoukovec"/>
+        <Class IRI="#Zivocich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PitiBaleneVody"/>
+        <Class IRI="#Prevence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Poceni"/>
+        <Class IRI="#PriznakNemoci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prevence"/>
+        <Class IRI="#PridavnaTrida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primat"/>
+        <Class IRI="#Savec"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PriznakNemoci"/>
+        <Class IRI="#PridavnaTrida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prujem"/>
+        <Class IRI="#PriznakNemoci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rehydratace"/>
+        <Class IRI="#Lecba"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Repelent"/>
+        <Class IRI="#Prevence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RuzovaVyrazka"/>
+        <Class IRI="#Vyrazka"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Savec"/>
+        <Class IRI="#Zivocich"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Selma"/>
+        <Class IRI="#Savec"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SeveroAmerickyStat"/>
+        <Class IRI="#Stat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Slovensko"/>
+        <Class IRI="#EvropskyStat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Slovensko"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#KlistovaEncefalitida"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Slovensko"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Vzteklina"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SmrtnostNemoci"/>
+        <Class IRI="#PridavnaTrida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpojeneStatyAmericke"/>
+        <Class IRI="#SeveroAmerickyStat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpojeneStatyAmericke"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#HoreckaDengue"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpojeneStatyAmericke"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Vzteklina"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stat"/>
+        <Class IRI="#PrimitivniTrida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stravovani"/>
+        <Class IRI="#Prevence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StredniBezpecnost"/>
+        <Class IRI="#BezpecnostStatu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StredniInkubacniDoba"/>
+        <Class IRI="#InkubacniDoba"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StredniSmrtnost"/>
+        <Class IRI="#SmrtnostNemoci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StredoAmerickyStat"/>
+        <Class IRI="#Stat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Svycarsko"/>
+        <Class IRI="#EvropskyStat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Svycarsko"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#KlistovaEncefalitida"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Svycarsko"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maVyskytOnemocneni"/>
+            <Class IRI="#Vzteklina"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TepelneZpracovaneStrava"/>
+        <Class IRI="#Stravovani"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TestBezpecneNebezpecnyStat"/>
+        <Class IRI="#BezpecnyStat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TestBezpecneNebezpecnyStat"/>
+        <Class IRI="#TestovaciTrida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TestBezpecneNebezpecnyStat"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maBezpecnost"/>
+            <Class IRI="#NizkaBezpecnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TestInkubacniDoby"/>
+        <Class IRI="#TestMalarie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TestInkubacniDoby"/>
+        <Class IRI="#TestovaciTrida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TestMalarie"/>
+        <Class IRI="#BakterialniOnemocneni"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TestMalarie"/>
+        <Class IRI="#TestovaciTrida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TestMalarie"/>
+        <Class IRI="#ViroveOnemocneni"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TestNemocSOtokemABrnenim"/>
+        <Class IRI="#Onemocneni"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TestNemocSOtokemABrnenim"/>
+        <Class IRI="#TestovaciTrida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TestNemocSOtokemABrnenim"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Brneni"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#maPriznak"/>
+                <Class IRI="#OtokKloubu"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TestNemociSDlouhoInkubacniDobou"/>
+        <Class IRI="#TestovaciTrida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TestNemociSDlouhoInkubacniDobou"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maInkubacniDobu"/>
+            <Class IRI="#DlouhaInkubacniDoba"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tetanus"/>
+        <Class IRI="#BakterialniOnemocneni"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tetanus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maInkubacniDobu"/>
+            <Class IRI="#DlouhaInkubacniDoba"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tetanus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPrevenci"/>
+            <Class IRI="#Ockovani"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tetanus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#BolestUst"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tetanus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Krece"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tetanus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#ObchabnutiSvalu"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tetanus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#ZtrataKoordinace"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tetanus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#KontaminovanaPuda"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unava"/>
+        <Class IRI="#PriznakNemoci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ViroveOnemocneni"/>
+        <Class IRI="#Onemocneni"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VisceralniLeishmanioza"/>
+        <Class IRI="#ParazitarniOnemocneni"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VisceralniLeishmanioza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maInkubacniDobu"/>
+            <Class IRI="#DlouhaInkubacniDoba"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VisceralniLeishmanioza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maLecbu"/>
+            <Class IRI="#Antibiotikum"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VisceralniLeishmanioza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPrevenci"/>
+            <Class IRI="#Moskytier"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VisceralniLeishmanioza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPrevenci"/>
+            <Class IRI="#Repelent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VisceralniLeishmanioza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Bledost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VisceralniLeishmanioza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Horecka"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VisceralniLeishmanioza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Otok"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VisceralniLeishmanioza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Poceni"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VisceralniLeishmanioza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Unava"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VisceralniLeishmanioza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#ZvetseniJater"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VisceralniLeishmanioza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#ZvetseniSleziny"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VisceralniLeishmanioza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maSmrtnost"/>
+            <Class IRI="#StredniSmrtnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VisceralniLeishmanioza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maSmrtnostPriNeleceni"/>
+            <Class IRI="#VysokaSmrtnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VisceralniLeishmanioza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#Clovek"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VisceralniLeishmanioza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#Hlodavec"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VisceralniLeishmanioza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#Hmyz"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VisceralniLeishmanioza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#OnemocneniSireneHmyzem"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VisceralniLeishmanioza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#Selma"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vyrazka"/>
+        <Class IRI="#PriznakNemoci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VysokaBezpecnost"/>
+        <Class IRI="#BezpecnostStatu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VysokaSmrtnost"/>
+        <Class IRI="#SmrtnostNemoci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vzteklina"/>
+        <Class IRI="#ViroveOnemocneni"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vzteklina"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maInkubacniDobu"/>
+            <Class IRI="#DlouhaInkubacniDoba"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vzteklina"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPrevenci"/>
+            <Class IRI="#Ockovani"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vzteklina"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Bolest"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vzteklina"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Brneni"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vzteklina"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Paleni"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vzteklina"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maSmrtnost"/>
+            <Class IRI="#VysokaSmrtnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vzteklina"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maSmrtnostPriNeleceni"/>
+            <Class IRI="#VysokaSmrtnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vzteklina"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#Savec"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zacpa"/>
+        <Class IRI="#PriznakNemoci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zaskrt"/>
+        <Class IRI="#BakterialniOnemocneni"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zaskrt"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maInkubacniDobu"/>
+            <Class IRI="#StredniInkubacniDoba"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zaskrt"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maLecbu"/>
+            <Class IRI="#Antibiotikum"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zaskrt"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maLecbu"/>
+            <Class IRI="#Antitoxin"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zaskrt"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Angina"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zaskrt"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Horecka"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zaskrt"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maSmrtnost"/>
+            <Class IRI="#NizkaSmrnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zaskrt"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maSmrtnostPriNeleceni"/>
+            <Class IRI="#StredniSmrtnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zaskrt"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#Bacilonosic"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zaskrt"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#KontaminovanyVzduch"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zaskrt"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#NemocnyClovek"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZavazneOnemocneni"/>
+        <Class IRI="#DefinovanaTrida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zavrat"/>
+        <Class IRI="#PriznakNemoci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZdrojNakazy"/>
+        <Class IRI="#PridavnaTrida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZikaVirus"/>
+        <Class IRI="#ViroveOnemocneni"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZikaVirus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maInkubacniDobu"/>
+            <Class IRI="#StredniInkubacniDoba"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZikaVirus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPrevenci"/>
+            <Class IRI="#Insekticid"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZikaVirus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPrevenci"/>
+            <Class IRI="#Moskytier"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZikaVirus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPrevenci"/>
+            <Class IRI="#Repelent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZikaVirus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#BolestHlavy"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZikaVirus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#BolestKloubu"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZikaVirus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Horecka"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZikaVirus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Vyrazka"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZikaVirus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maSmrtnost"/>
+            <Class IRI="#StredniSmrtnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZikaVirus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maSmrtnostPriNeleceni"/>
+            <Class IRI="#StredniSmrtnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZikaVirus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#Komar"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZikaVirus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#OnemocneniSireneHmyzem"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zimnice"/>
+        <Class IRI="#PriznakNemoci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zivocich"/>
+        <Class IRI="#ZdrojNakazy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zloutenka"/>
+        <Class IRI="#ViroveOnemocneni"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zloutenka"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maInkubacniDobu"/>
+            <Class IRI="#DlouhaInkubacniDoba"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zloutenka"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPrevenci"/>
+            <Class IRI="#Dezinfikovani"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zloutenka"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPrevenci"/>
+            <Class IRI="#Ockovani"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zloutenka"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#BolestBricha"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zloutenka"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#BolestHlavy"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zloutenka"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#CelkovaSlabost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zloutenka"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Horecka"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zloutenka"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Nevolnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zloutenka"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#ZluteZbarvenaKuze"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zloutenka"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#ZluteZbarveneBelmoOka"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zloutenka"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maSmrtnost"/>
+            <Class IRI="#NizkaSmrnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zloutenka"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maSmrtnostPriNeleceni"/>
+            <Class IRI="#StredniSmrtnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zloutenka"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#Clovek"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZloutenkaTypuA"/>
+        <Class IRI="#Zloutenka"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZloutenkaTypuA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#CelkovaSlabost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZloutenkaTypuA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Nechutenstvi"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZloutenkaTypuA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Unava"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZloutenkaTypuA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#ZluteZbarveneBelmoOka"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZloutenkaTypuA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#Zvraceni"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZloutenkaTypuA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#KontaminovanaPotrava"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZloutenkaTypuA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#KontaminovanaVoda"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZloutenkaTypuB"/>
+        <Class IRI="#Zloutenka"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZloutenkaTypuB"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maPriznak"/>
+            <Class IRI="#ZluteZbarvenaSliznice"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZloutenkaTypuB"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maZdrojNakazy"/>
+            <Class IRI="#Clovek"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZluteZbarvenaKuze"/>
+        <Class IRI="#PriznakNemoci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZluteZbarvenaSliznice"/>
+        <Class IRI="#PriznakNemoci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZluteZbarveneBelmoOka"/>
+        <Class IRI="#PriznakNemoci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZtrataKoordinace"/>
+        <Class IRI="#PriznakNemoci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZvetseniJater"/>
+        <Class IRI="#ZvetseniOrganu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZvetseniOrganu"/>
+        <Class IRI="#PriznakNemoci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZvetseniSleziny"/>
+        <Class IRI="#ZvetseniOrganu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZvetseniUzlin"/>
+        <Class IRI="#PriznakNemoci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zvraceni"/>
+        <Class IRI="#PriznakNemoci"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#BakterialniOnemocneni"/>
+        <Class IRI="#ParazitarniOnemocneni"/>
+        <Class IRI="#ViroveOnemocneni"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DlouhaInkubacniDoba"/>
+        <Class IRI="#KratkaInkubacniDoba"/>
+        <Class IRI="#StredniInkubacniDoba"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NizkaBezpecnost"/>
+        <Class IRI="#StredniBezpecnost"/>
+        <Class IRI="#VysokaBezpecnost"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NizkaSmrnost"/>
+        <Class IRI="#StredniSmrtnost"/>
+        <Class IRI="#VysokaSmrtnost"/>
+    </DisjointClasses>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#jeBezpecnostPro"/>
+        <ObjectProperty IRI="#maBezpecnost"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#jeInkubacniDobouPro"/>
+        <ObjectProperty IRI="#maInkubacniDobu"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#jeLecbaPro"/>
+        <ObjectProperty IRI="#maLecbu"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#jeOnemocnenimVe"/>
+        <ObjectProperty IRI="#maOnemocneni"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#jePovinneOckovaniPro"/>
+        <ObjectProperty IRI="#maPovinneOckovani"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#jePrevenciPro"/>
+        <ObjectProperty IRI="#maPrevenci"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#jePriznakemPro"/>
+        <ObjectProperty IRI="#maPriznak"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#jeSmrtnostiPriNeleceniPro"/>
+        <ObjectProperty IRI="#maSmrtnostPriNeleceni"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#jeSmrtnostiPro"/>
+        <ObjectProperty IRI="#maSmrtnost"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#jeZavaznostiPro"/>
+        <ObjectProperty IRI="#maZavaznost"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#jeZdrojemNakazyPro"/>
+        <ObjectProperty IRI="#maZdrojNakazy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#maVyskytOnemocneni"/>
+        <ObjectProperty IRI="#seVyskytujeV"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#jeBezpecnostPro"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#maBezpecnost"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#jeBezpecnostPro"/>
+        <Class IRI="#BezpecnostStatu"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#jeInkubacniDobouPro"/>
+        <Class IRI="#InkubacniDoba"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#jeLecbaPro"/>
+        <Class IRI="#Lecba"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#jeOnemocnenimVe"/>
+        <Class IRI="#Onemocneni"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#jePovinneOckovaniPro"/>
+        <Class IRI="#Onemocneni"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#jePrevenciPro"/>
+        <Class IRI="#Prevence"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#jePriznakemPro"/>
+        <Class IRI="#PriznakNemoci"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#jeSmrtnostiPriNeleceniPro"/>
+        <Class IRI="#SmrtnostNemoci"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#jeSmrtnostiPro"/>
+        <Class IRI="#SmrtnostNemoci"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#jeZdrojemNakazyPro"/>
+        <Class IRI="#ZdrojNakazy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#maBezpecnost"/>
+        <Class IRI="#Stat"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#maInkubacniDobu"/>
+        <Class IRI="#Onemocneni"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#maLecbu"/>
+        <Class IRI="#Onemocneni"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#maOnemocneni"/>
+        <Class IRI="#Stat"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#maPovinneOckovani"/>
+        <Class IRI="#Stat"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#maPrevenci"/>
+        <Class IRI="#Onemocneni"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#maPriznak"/>
+        <Class IRI="#Onemocneni"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#maSmrtnost"/>
+        <Class IRI="#Onemocneni"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#maSmrtnostPriNeleceni"/>
+        <Class IRI="#Onemocneni"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#maVyskytOnemocneni"/>
+        <Class IRI="#Stat"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#maZavaznost"/>
+        <Class IRI="#Onemocneni"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#maZdrojNakazy"/>
+        <Class IRI="#Onemocneni"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#seVyskytujeV"/>
+        <Class IRI="#Onemocneni"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="#Onemocneni"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#jeBezpecnostPro"/>
+        <Class IRI="#Stat"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#jeInkubacniDobouPro"/>
+        <Class IRI="#Onemocneni"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#jeLecbaPro"/>
+        <Class IRI="#Onemocneni"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#jeOnemocnenimVe"/>
+        <Class IRI="#Stat"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#jePovinneOckovaniPro"/>
+        <Class IRI="#Stat"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#jePrevenciPro"/>
+        <Class IRI="#Onemocneni"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#jePriznakemPro"/>
+        <Class IRI="#Onemocneni"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#jeSmrtnostiPriNeleceniPro"/>
+        <Class IRI="#Onemocneni"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#jeSmrtnostiPro"/>
+        <Class IRI="#Onemocneni"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#jeZavaznostiPro"/>
+        <Class IRI="#Onemocneni"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#jeZdrojemNakazyPro"/>
+        <Class IRI="#Onemocneni"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#maBezpecnost"/>
+        <Class IRI="#BezpecnostStatu"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#maInkubacniDobu"/>
+        <Class IRI="#InkubacniDoba"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#maLecbu"/>
+        <Class IRI="#Lecba"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#maOnemocneni"/>
+        <Class IRI="#Onemocneni"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#maPovinneOckovani"/>
+        <Class IRI="#Onemocneni"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#maPrevenci"/>
+        <Class IRI="#Prevence"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#maPriznak"/>
+        <Class IRI="#PriznakNemoci"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#maSmrtnost"/>
+        <Class IRI="#SmrtnostNemoci"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#maSmrtnostPriNeleceni"/>
+        <Class IRI="#SmrtnostNemoci"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#maVyskytOnemocneni"/>
+        <Class IRI="#Onemocneni"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#maZdrojNakazy"/>
+        <Class IRI="#ZdrojNakazy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#seVyskytujeV"/>
+        <Class IRI="#Stat"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="#PriznakNemoci"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#maUmrtnost"/>
+        <Class IRI="#Onemocneni"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#maUmrtnost"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ASAQ</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Lék proti malárii kombinující látky artesunat a amodiaquin.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Argentina</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V tomto jihoamerickem state nalezneme nemoci jako je Tyfus, horecka Dengue a vzteklina.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Australie</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ackoliv ma australie bohatou faunu, vyskytuje se zde pouze vzteklina a horecka Dengue.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bacilonosic</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Bacilonosič je člověk, který nemá žádné přiznaky dané nemoci ale zdroj nákazy má ve svém těle.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BakterialniOnemocneni</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Onemocneni, ktere zpusobuji bakterie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BezpecnyStat</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Stat jenz ma vysokou bezpecnost.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cestovatel</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Radime zde lidi navstevujici zemi, dovolena i prace.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chile</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Obdobne jako v Argentine zde mapujeme Tyfus a Vzteklinu. Chybi horecka Dengue.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dezinfikovani</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Opatreni proti dalsimu sireni</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DlouhaInkubacniDoba</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Inkubační doba delší než 7 dní.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Doktor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Lekari jak lokalni, tak doktori na misich.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Egypt</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Egypt je africky stat s vyskytem Tyfu, Dengue, Tetanu a Vztekliny.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HoreckaChikungunya</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Horecka Chikunguya je virove onemocneni prenasene komarem, pripadne opicemi se stredni inkubacni dobou. Smrtnost je nizka, projevuje se zimnici, vyrazkou, otokem kloubu, horeckou, bolesti za ocima, svalovymi a kloubnimi bolestmi. Jako u ostatnich onemocneni prenasenych hmyzem je vhodne pouzivat moskytiery a repelent.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HoreckaDengue</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Onemocneni se stredni inkubacnidobou, zname tez jako horecka, ktera lame kosti. Prenasecem je komar, proto k prevenci pomahaji repelenty a moskytiery. Zpusobuje bolesti, horecky, vyrazky, zvetsujici se uzliny. Smrtnost je nizka, pri neleceni stredni.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Informovanost</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Informovanost populace a navstevniku zeme/regionu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Insekticid</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Pripravek urceny k hubeni hmyzu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Jordansko</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V asijskem state Jordansko se vyskytuje Tyfus, Dengue, tetanus, vzteklina a Visceralni Leishmanioza</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Kanada</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V Kanade je vyskyt vztekliny.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Kena</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Stat v Africkem kontinentu s vyskytem brisniho Tyfu, cholery, horecky Chikungunya a Dengue, malarii, tetanu, vztekliny a viru Zika.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Kliste</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Roztoc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#KlistovaEncefalitida</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Nemoc s inkubacni 7 - 14 dni, prenaseno klistaty. Ockovani je dostupne. Zpusobuje bolest hlavy, kloubu, horecku, nechutenstni a unavu. Nemoc vetsinou neni zavazna a smrtnost je nizka. Pri absenci lecby muze byt stredni.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#KontaminovanaPotrava</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Kontaminace potravy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#KontaminovanaPuda</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Kontaminace pudy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#KontaminovanaVoda</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Kontaminace tekutin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#KontaminovanyVzduch</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Kontaminace ovzdusi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#KratkaInkubacniDoba</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Inkubační doba do 1 dne včetně.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Malarie</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Onemocneni s dlouhou inkubacni dobou. Existuji Antimalarika. Da se mu predchazet pouzivanim sitim proti hmyzu, repelentu. Zpusobuje bolesti kloubu, horecky, krece, poceni, zimnici. Je stredne nebezpecne pri lecbe, a velmi nebezpecne nelecene. Prenaseno komary.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mexiko</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V Mexiku se vyskytuje Tyfus, Cholera, horecka Dengue, vzteklina a typicke jizni nemoci jako je Malarie a virus Zika.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Moskytier</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Site proti hmyzu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Moucha</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Povetsionou moucha tse-tse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NebezpecnyStat</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Stat jenz ma nizkou bezpecnost</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NemocnyClovek</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Clovek infikovany onemocnenim, s projevujicimi se priznaky. Muze byt zaroven bacilonosicem.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Nepal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V horskem state Nepal, na jizni hranici Ciny je rozsiren Tyfus, Chikungunya, Dengue, Malarie, Tetanus a vzteklina.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NizkaBezpecnost</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NizkaSmrnost</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Smrtnost do 1% včetně.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Obyvatel</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Obyvatele dane zeme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ockovani</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Vakcina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OnemocneniSireneHmyzem</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Onemocneni jenz jsou sirena hmyzem.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Opice</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Primati</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ParazitarniOnemocneni</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Puvodcem onemocneni jsou parazite.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pavoukovec</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Bezobratli zivocichove</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PitiBaleneVody</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Dostupnost balene, nezavadne vody</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Repelent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Pripravek odpuzujici hmyz.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RuzovaVyrazka</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Druh vyrazky</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Slovensko</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">V sousednim slovensku je mapovan vyskyt vztekliny a klistove Encefalitidy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SmrtnostNemoci</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Smrtnost nemoci v procentech</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SpojeneStatyAmericke</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Na jihu USA najdeme horecku Dengue, a plosne pak muzeme diagnostikovat u zvirat vzteklinu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#StredniBezpecnost</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#StredniInkubacniDoba</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Inkubační doba od 1 do 7 dní včetně.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#StredniSmrtnost</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Smrtnost od 1% do 10% včetně.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Svycarsko</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Stejne jako na Slovensku je zde vyskyt vztekliny a Encefalitidy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TepelneZpracovaneStrava</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Dostupnost tepelne opracovane stravy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TestBezpecneNebezpecnyStat</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Bezpecne nebezpecny stat neexistuje. A proto nemuze mit ze statu zdedenou vysokou bezpecnost, a zaroven splnovat podminky pro zarazeni do tridy s nizkou bezpecnosti.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TestInkubacniDoby</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Neni konzistentni, protoze je podtridou nekonzistentni tridy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TestMalarie</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Bakterialni nemoc, nemuze byt zaroven virovou nemoci. Proto nekonzistentnost.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TestNemocSOtokemABrnenim</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">je konzistentni, protoze Otok a Brneni jsou oba podtridy Onemocneni</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TestNemociSDlouhoInkubacniDobou</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Konzistentni, obsahuje nemoci s dlouhou inkubacni dobou a zadne jine. Onemocneni a InkubacniDoba se nevylucuji.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ViroveOnemocneni</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Puvodcem onemocneni je vir</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VisceralniLeishmanioza</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Nemoc znama tez jako Cerna horecka je parazitarnim onemocneni. Ma dlouhou inkubacni dobu a da se lecit antibiotiky. Vhodne je predchazet nakaze pomoci moskytier, uzivanim repelentu. Projevuje se bledosti, horeckou, otokem, pocenim, unavou, zvetsenim vnitrchnich organu. Nelecena ma vysokou smrtnost. Zdrojem nakazy muze byt clovek, hlodavec, hmyz a selmy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VysokaBezpecnost</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VysokaSmrtnost</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Smrnost nad 10%.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vzteklina</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Vzteklina je virove onemocneni, s dlouhou inkubacni dobou a dostupny ockovanim. Zpusobuje bolesti, brneni a paleni. Po propuknuti je smrtnost temer 100 procentni. Nemoc se prenasi slinami, vetsinou pokousanim.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Zaskrt</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Je to bakterialni onemocneni se stredni inkubacnidobou. Muze se lecit Antibiotiky a Antitoxiny. Zpusobuje horecku a anginu. Nizka smrtnost pri dostupnosti lecby, stredni kdyz je neleceny. Je sance nakazit se od cloveka, z okolniho vzduchu, nebo od prenasece.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ZavazneOnemocneni</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Onemocneni jenz maji stredni a vysoukou smrtnost a zaroven na ne neni ockovani</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ZdrojNakazy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Mozne zdroje nakazy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ZikaVirus</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Onemocneni prenaseno komarem. Se se stredne dlouho inkubacni dobou, 3 - 12 dnu. Jako prevence se komari hubi, pouzivaji se site a repelenty. Zpusobuje bolesti hlavy, kloubniho aparatu, vyrazky a horecku. Lecena ma stredni smrtnost, nelecena taktez. Obvykle nevyzaduje hospitalizaci.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Zivocich</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Zivy tvor schopny prenaset onemocneni.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Zloutenka</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Spravne zvana hepatitida. Jedna se o zanet jater, a rika se ji nemco spinavych rukou. Zradnou vlastnosti je inkubacni doba 15 - 50 dni. Proti zloutence existuje ockovani, a dezinfekce. Zpusobuje bolesti bricha, hlavy, oslabeni organismu, horecku, nevolnost, a typicke zlute zabarveni kuze a mekych tkani. Pri leceni neni zloutenka nijak zvlast nebezpecna. Prenasi se potravinami, kontaktem cloveka s clovekem.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ZloutenkaTypuA</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Viz. Zloutenka. Prenasi se potravinavi, spatne tepelne opracovanymi, vodou, ledem, zeleniniou, syrem i masem. Dokonce i kontaminovanymi predmety. Taktez z cloveka na cloveka.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ZloutenkaTypuB</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">je nebezpecnejsi nez zloutenka typu A. Smrtnost je nizka, ale stale vyssi nez u A. ostatni priznaky zustavaji obdobne. Velke riziko pri kontaktu.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
